@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Brian Byers
+Developer @GA in Denver
 */
 
 
@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -68,10 +68,103 @@ body {
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  color:white;
 }
-
+h1{
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 30px 0px 20px 80px;
+}
+h2{
+  text-align: center;
+  font-size:24px;
+  margin: 0 auto;
+  padding: 50px;
+}
+h3{
+  padding: 50px 0px 8px 8px;
+  font-size: 20px;
+  color:#033048;
+}
+ul{
+  font-size:13px;
+  color: #606161;
+  padding: 8px 0px 40px 40px;
+}
+li{
+  padding: 2px 0;
+}
+#quote{
+  font-size:18px;
+  font-style: italic;
+  color: white;
+  text-align:center;
+  margin:50px 120px 0 120px;
+  padding: 50px 0 0 0;
+}
+h4{
+  font-size: 18px;
+  color: white;
+  text-align:center;
+  padding: 0 0 50px 0;
+}
+h5{
+  font-size: 24px;
+  color: #f9e42e;
+  padding:25px 0;
+}
+h6{
+  font-size: 9px;
+  color: white;
+  padding: 25px 0;
+}
 footer {
-
+  background-color:#121212;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  padding:10px 40px;
+  border-radius: 5px;
+  border-color: #f9e42e;
+  font-size: 14px;
+  color: #033048;
+  background-color:#f9e42e;
+}
+.xBold{
+  font-weight: 800;
+}
+.sBold{
+  font-weight:600;
+}
+.lightWeight{
+  font-weight:300;
+}
+.buttonCenterer{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+#description{
+  font-size: 13px;
+  color: #606161;
+  padding: 8px 0px 20px 13px;
+}
+#signUp{
+  background-color: #f9e42e;
+}
+#getItNow{
+  padding-bottom: 150px;
+}
+#signUpNow{
+  margin: 16px 0;
+  font-size: 12px;
+  color:white;
+  background-color: #033048;
+}
+#testimonial{
+  background: url(../images/testimonial_bg.jpg) no-repeat center
 }
 
 /******************************************
