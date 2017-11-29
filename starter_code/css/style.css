@@ -164,7 +164,8 @@ button {
   background-color: #033048;
 }
 #testimonial{
-  background: url(../images/testimonial_bg.jpg) no-repeat center
+  background: url(../images/testimonial_bg.jpg) no-repeat center;
+  background-size: cover;
 }
 
 /******************************************
